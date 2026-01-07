@@ -1,0 +1,8 @@
+cd :use for enter inside the file
+npm install
+npm run dev 
+cd ..
+
+
+
+
