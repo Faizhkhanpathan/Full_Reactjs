@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './components/card.jsx'
-import User from './components/user.jsx'
+// import User from './components/user.jsx'
 const App = () => {
     // const arr = [{user:"sohail"},{user:"atif"},{user:"hidayat"},{user:"rajiya"},{user:"faiz"}];
 // console.log(arr);
@@ -134,7 +134,7 @@ console.log(arr1);
     return <h1>elem*3</h1>
   })} */}
       {arr1.map(function(elem){
-        return <h1>hey</h1>
+        return <Card companyName={elem.companyName} post={elem.post} />
       })}
     </div>
   )
