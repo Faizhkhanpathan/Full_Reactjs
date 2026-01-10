@@ -1,9 +1,13 @@
 import React from 'react'
-
-const LeftContent = () => {
+import HeroText from './HeroText'
+import Arrow from './Arrow.jsx'
+const LeftContent = (props) => {
+  console.log(props.users);
   return (
-    <div>
-      this is left content
+    
+    <div className='h-full flex flex-col justify-between w-1/3 '>
+      <HeroText />
+       <Arrow />
     </div>
   )
 }

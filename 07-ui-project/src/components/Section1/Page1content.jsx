@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from './Navbar.jsx'
 
-const Page1content = () => {
+import LeftContent from './LeftContent.jsx'
+import Rightcontent from './Rightcontent.jsx'
+const Page1content= (props) => {
+  // console.log(props.users);
   return (
-    <div>
-      <h1>Page 1 Content</h1>
+    <div  className='pb-16 pt-6 h-[90vh] flex justify-between gap-10 px-18'>
+      <LeftContent />
+      <Rightcontent users={props.users}/>
     </div>
   )
 }

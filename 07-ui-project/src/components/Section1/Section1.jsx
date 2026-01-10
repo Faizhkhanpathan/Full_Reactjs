@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar.jsx'
-const Section1 = () => {
+import Page1content from './Page1content.jsx'
+const Section1 = (props) => {
+  console.log(props.users.Arrow);
   return (
-    <div className='h-screen w-full bg-gray-900'>
-      Section1
+    <div>
       <Navbar />
+      <Page1content users={props.users} />
     </div>
   )
 }
