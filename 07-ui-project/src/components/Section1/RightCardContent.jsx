@@ -8,7 +8,7 @@ const RightCardContent = (props) => {
         <h2 className='bg-white text-xl font-bold rounded-full h-12 w-12 flex justify-center items-center'>{props.id+1}</h2>
 
         <div>
-          <p className='text-lg leading-relaxed text-white mb-14'>{props.user.intro}</p>
+          <p className=' text-text-2xs leading-relaxed text-white mb-14'>{props.user.intro}</p>
 
           <div>
            <button style={{ backgroundColor: props.color }} className="text-white font-medium px-8 py-2 rounded-full">
