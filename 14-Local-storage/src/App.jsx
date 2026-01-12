@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import React from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+// //local storage there have thome oprations like 
+// //1) setItem
+// //2) getItem
+// //3) removeItem
+// //4) clear
 
-export default App
+// const App = () => {
+//   // localStorage.clear()
+//   //sessionStorage.clear()
+//   // localStorage.setItem('name','Faiz'); //key value pair we store data from here 
+//   // const name = localStorage.getItem('name'); //here only we write key to get value from local storage
+//   // localStorage.setItem('age','18'); 
+//   // console.log(name);
+//   // localStorage.removeItem('name'); 
+
+//   const user = {
+//     name: 'Faiz',
+//     age: 18,
+//     city: 'Delhi'
+//   }
+//   // localStorage.setItem('user', user);  //in local storge data store in the form of string
+//   // localStorage.setItem('user', JSON.stringify(user)); //object data 
+//   // const userData = localStorage.getItem('user');  //data dete waqt String form me data dete hai 
+//   // console.log(JSON.parse(userData)); //converting string data to object
+
+//   return (
+//     <div>
+//       App
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// ====================================================================================================
